@@ -44,3 +44,6 @@ serve:
 	@${MAKE} serve_as_sf
 .PHONY: sf_console serve serve_as_sf serve_as_php
 ###< symfony/framework-bundle ###
+
+behat:
+	vendor/bin/behat
